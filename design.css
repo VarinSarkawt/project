@@ -21,7 +21,7 @@
 }
 
 .childDiv a:hover{
-    background-color: red;
+    background-color: rgb(181, 0, 0);
     display: flex;
 }
 
@@ -94,6 +94,7 @@
   .loginDropDown{
     position: relative;
     display: inline-block;
+    z-index: 1;
   }
 
   .loginButton{
@@ -101,7 +102,7 @@
     border: none;
   }
   .loginButton:hover{
-    background-color: red;
+    background-color: rgb(181, 0, 0);
   }
 
   .logDDContent{
@@ -137,7 +138,7 @@
 
   .loginForm button{
     padding: 12px;
-    background-color: rgb(0, 119, 255);
+    background-color: rgb(181, 0, 0);
     color: white;
     border: none;
     border-radius: 4px;
@@ -145,5 +146,92 @@
 
   }
   .loginForm button:hover{
-    background-color: rgb(0, 64, 137);
+    background-color: rgb(105, 0, 0);
+  }
+
+
+  .galaxy{
+    position: absolute;
+    left: 710px;
+    bottom: 153px;
+  }
+
+  .pixel{
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .oneplus{
+    top: 500px;
+    position: absolute;
+    left: 515px;
+
+  }
+
+  .oneplusOpen{
+    top: 760px;
+    position: absolute;
+    left: 515px;
+  }
+
+
+
+  .iphoneText{
+    position: absolute;
+    bottom: 170px;
+    left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .galaxyText{
+    position: absolute;
+    bottom: 180px;
+    left: 740px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+
+  .pixelText{
+    position: absolute;
+    top: 930px;
+    left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+  .oneplusText{
+    position: absolute;
+    top: 670px;
+    left: 545px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+  .oneplusOpenText{
+    position: absolute;
+    top: 935px;
+    left: 545px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+  footer{
+    background-color: rgb(133, 133, 133);
+    color: white;
+    padding: 20px;
+    top: 1030px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .footerLinks{
+    text-decoration: none;
+    color: white;
+  }
+
+  .footerLinks:hover{
+    color: rgb(181, 0, 0);
+    text-decoration: underline;
   }
