@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>FutureGadgetGuide</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
 </head>
 <body>
 
-    <h1>hello world</h1>
+    <div id="topbar">
+
+        <div class="childDiv">
+            <div class="dropdown">
+                <button class="dropdownBtn"><a href="#"><img src="menu.png" alt="menu" width="35px"></a></button>
+                <div class="dropdownContent">
+                  <a href="#">Smart Phones</a>
+                  <a href="#">Tablets</a>
+                  <a href="#">Smart Watches</a>
+                </div>
+              </div>
+            </div>
+
+              <div class="childDiv"><a href="homepage.html" id="homelink">FutureGadgetGuide</a></div>
+
+              <div class="childDiv"style="padding-left: 35px;">
+                <form>
+                    <input type="text" name="search" placeholder="search" id="search">
+                    <button type="submit" id="searchButton"><img src="search.png" alt="search" width="10px"></button>
+                </form>
+              </div>
+
+
+              <div class="childDiv">
+                <div class="loginDropDown">
+                    <button class="loginButton"><img src="login.png" alt="Login" width="35px"></button>
+                    <div class="logDDContent">
+                        <form class="loginForm">
+                            <label for="Login", style="text-align: center; font-weight: bold;">Login</label>
+                            <label for="username">Username:</label>
+                            <input type="text" name="username">
+
+                            <label for="password">Password:</label>
+                            <input type="password" name="password">
+
+                            <button type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+              </div>
+
+              
+              <div class="childDiv">
+                <div class="loginDropDown">
+                    <button class="loginButton"><img src="signup.png" alt="signup" width="35px"></button>
+                    <div class="logDDContent">
+                        <form class="loginForm">
+                            <label for="Signup", style="text-align: center; font-weight: bold;">Signup</label>
+                            <label for="username">Username:</label>
+                            <input type="text" name="username">
+
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" name="fullname">
+
+                            <label for="e-mail">Email:</label>
+                            <input type="email" name="e-mail">
+
+                            <label for="password">Password:</label>
+                            <input type="password" name="password">
+                            
+                            <label for="passwordConf">Password Confirmation:</label>
+                            <input type="password" name="passwordConf">
+                            
+                         
+                            <div style="padding-left:8px ;">
+                                <p>Gender:</p>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                                <input type="radio" id="female" name="gender" value="female"> 
+                                <label for="female">Female</label>
+                            </div>
+
+                            <br>
+
+                            <button type="submit">Signup</button>
+                        </form>
+                    </div>
+                </div>
+              </div>
+            
+    </div>
+
+
+    <img src="iphone15promax.jpg" alt="iphone15promax" width="800px" style="border: 2px solid white;">
+
     
 </body>
 </html>
