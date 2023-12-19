@@ -176,6 +176,25 @@
     left: 515px;
   }
 
+  .appleWatch{
+   position: absolute;
+   top: 1020px;
+   left: 10px;
+  }
+
+  .zflip{
+    position: absolute;
+    top: 1020px;
+    left: 495px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .ipadPro{
+    position: absolute;
+    top: 1020px;
+    left: 800px;
+  }
+
 
 
   .iphoneText{
@@ -206,7 +225,7 @@
     top: 670px;
     left: 545px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: white;
   }
 
   .oneplusOpenText{
@@ -217,11 +236,36 @@
     color: black;
   }
 
+  .appleWatchText{
+    position: absolute;
+    top: 1268px;
+    left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+  .zflipText{
+    position: absolute;
+    top: 1268px;
+    left: 510px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+  .ipadProText{
+    position: absolute;
+    top: 1268px;
+    left: 830px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+
   footer{
     background-color: rgb(133, 133, 133);
     color: white;
     padding: 20px;
-    top: 1030px;
+    top: 1355px;
     position: absolute;
     width: 100%;
   }
@@ -234,4 +278,35 @@
   .footerLinks:hover{
     color: rgb(181, 0, 0);
     text-decoration: underline;
+  }
+
+
+  /**********************************************/
+
+  .termsText{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.253);
+    font-size: 30px;
+  }
+
+  .Topdivs{
+    width: 1292px;
+    height: 80px;
+    position: absolute;
+    top: 99px;
+    background-color:rgba(128, 128, 128, 0.253) ;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+  }
+
+  .bottomdivs{
+    width: 1292px;
+    height: 80px;
+    position: absolute;
+    top: 418px;
+    background-color:rgba(128, 128, 128, 0.253) ;
+    border: 1px solid rgba(128, 128, 128, 0.473);
   }
