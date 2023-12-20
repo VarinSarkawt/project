@@ -469,31 +469,29 @@
 
 
 
-  .phone1{
+  .phones{
     width: 300px;
     height: 380px;
     box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
     text-align: center;
-    position: relative;
-    top: 40px;
-    left: 10px;
   }
 
-  .phone1:hover{
+  .phones:hover{
     background-color: rgb(105, 0, 0);;
   }
 
 
-  .phone2{
-    width: 300px;
-    height: 380px;
+
+  /***************************************************/
+
+
+  .tablets{
+    width: 800px;
+    height: 1000px;
     box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
     text-align: center;
-    position: relative;
-    bottom: 340px;
-    left: 340px;
   }
 
-  .phone2:hover{
+  .tablets:hover{
     background-color: rgb(105, 0, 0);;
   }
